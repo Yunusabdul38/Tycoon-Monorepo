@@ -14,7 +14,7 @@ export class CreateGiftsTable1740360000000 implements MigrationInterface {
         name: 'gifts',
         columns: [
           {
-            name: 'id',
+            name: 'id', 
             type: 'int',
             isPrimary: true,
             isGenerated: true,
